@@ -5,7 +5,7 @@
 }
 
 body{
-  padding: 90px 20px 0;
+  padding: 70px 0;
 }
 
 .container-navbar{
@@ -15,6 +15,7 @@ body{
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .navbar{
@@ -69,7 +70,7 @@ body{
 
 @media screen and (max-width: 768px) {
   body{
-    padding-top: 70px;
+    padding-top: 60px;
   }
   .container-navbar{
     height: 60px;

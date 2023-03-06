@@ -1,0 +1,28 @@
+
+.header{
+  background-image: url(/images/cool-background.png);
+  color: white;
+  height: 85vh;
+}
+
+
+.container-main-title{
+  position: relative;
+  width: max-content;
+  top: 20%;
+  left: 15%;
+}
+
+.main-title{
+  font-size: 450%;
+  font-family: 'Roboto slab';
+  font-weight: lighter;
+}
+
+
+@media screen and (max-width: 768px) {
+  .main-title{
+    font-size: 350%;
+  }
+}
+

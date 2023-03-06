@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { headers } from "../data"
-
+import '../stylesNavbar.css'
 export const NavBar = () => {
 
   const [isActive, setIsActive] = useState(false);
