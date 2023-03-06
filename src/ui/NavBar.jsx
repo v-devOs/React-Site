@@ -1,18 +1,32 @@
+import { useState } from "react"
 import { headers } from "../data"
 
 export const NavBar = () => {
+
+  const [isActive, setIsActive] = useState(false);
+
+  const onClick = () => {
+    setIsActive( !isActive );
+  }
   return (
-    <nav className="navbar">
-      <p className="nav-item">deVos</p>
+    
+    <div className="container-navbar">
 
-      <ul className="nav-links">
+      <nav className="navbar">
+        <a href="" className="nav-logo nav-link">deVos</a>
 
-        {
-          headers.map( header => (
-            <li key={header} className='nav-link'><a href="">{header}</a></li>
-          ))
-        }
-      </ul>
-    </nav>
+        <button 
+          onClick={onClick}
+          className="nav-toggle"><i class={`${isActive ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}`}></i></button>
+
+        <ul className={`nav-menu ${ isActive ? 'nav-menu_visible' : ''}`}>
+          {
+            headers.map( header => (
+              <li key={header} className='nav-menu-item'><a href="" className="nav-menu-link nav-link" >{header}</a></li>
+            ))
+          }
+        </ul>
+      </nav>
+    </div>
   )
 }
