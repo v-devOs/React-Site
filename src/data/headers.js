@@ -1,6 +1,19 @@
 export const headers = [
-  'Habilidades',
-  'Proyectos',
-  'Sobre mi',
-  'Contacto'
+
+  {
+    info: 'Sobre mi',
+    pointer: 'about-me'
+  },
+  {
+    info: 'Habilidades',
+    pointer: 'skills'
+  },
+  {
+    info: 'Proyectos',
+    pointer: 'projects'
+  },
+  {
+    info: 'Contacto',
+    pointer: 'contac-me'
+  },
 ]

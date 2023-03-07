@@ -10,7 +10,7 @@ export const UrielDev = () => {
 
       <Title/>
 
-      {/* <CardMe/> */}
+      <CardMe/>
     </>
   )
 }
