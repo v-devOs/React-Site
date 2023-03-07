@@ -1,0 +1,29 @@
+.container-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 800px;
+}
+
+.card-description{
+  position: relative;
+
+}
+
+.container-image{
+  background-color: red;
+}
+
+.card-image{
+  position: absolute;
+  display: block;
+  width: 250px;
+  border-radius: 100%;
+  margin: 10px 20px;
+  b;
+}
+
+
