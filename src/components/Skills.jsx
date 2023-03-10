@@ -1,6 +1,6 @@
-import { skillsDataFrontEnd } from "../data"
+import { skills } from '../data'
 import '../stylesSkills.css'
-import { FrontEndSkills } from "./componentsSkills"
+import { SkillsInfo } from './componentsSkills/SkillsInfo'
 
 export const Skills = () => {
   return (
@@ -11,7 +11,11 @@ export const Skills = () => {
 
       <div id="skills">
         
-        <FrontEndSkills/>
+        {
+          skills.map( ({area, skills}) => (
+            <SkillsInfo key={area} title={area} skills={skills}/>
+          ))
+        }
 
       </div>
     </>

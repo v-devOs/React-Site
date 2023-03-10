@@ -1,16 +1,18 @@
 
 #skills{
-  display: flex;
   margin: 55px 50px;
   background-color: #302e2e;
   padding: 50px;
   border-radius: 20px;
-  justify-content: space-around;
 }
 
 #skills a {
   text-decoration: none;
   color: white;
+}
+.skills-info{
+  /* display: flex; */
+  margin-bottom: 50px;
 }
 .primary{
   margin: 55px 50px;
@@ -20,6 +22,7 @@
   font-family: 'Roboto slab';
   font-weight: lighter;
 }
+
 .container-subtitle{
   color: white;
 }
@@ -30,6 +33,7 @@
 .container-skills{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .card-container{
@@ -38,7 +42,7 @@
   padding: 20px 80px;
   border-radius: 10px;
   margin: 10px 20px;
-  flex: 2 0 100px;
+  width: max-content;
 }
 
 .card-container:hover{
@@ -61,6 +65,7 @@
   }
   .card-container{
     margin: 20px;
+    flex: 1 0 200px;
     
   }
 }

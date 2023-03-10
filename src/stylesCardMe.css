@@ -38,6 +38,7 @@ body{
 @media screen and (max-width: 768px) {
   .container-card{
     /* margin: 80px; */
+    margin: 20px;
     padding: 30px;
   }
   .card-info{
