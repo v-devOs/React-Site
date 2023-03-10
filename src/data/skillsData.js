@@ -18,7 +18,7 @@ export const skills = [
         link: 'https://lenguajehtml.com/html/'
       },
       {
-        icon: '/icons/html5.svg',
+        icon: '/icons/javascript.svg',
         name: 'JAVASCRIPT',
         link: 'https://lenguajehtml.com/html/'
       },
