@@ -8,8 +8,6 @@ export const Title = () => {
         <h2>Desarrollador web MERN Stack en proceso</h2>
       </div>
 
-      
-      
     </div>
   )
 }

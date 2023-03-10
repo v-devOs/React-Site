@@ -5,29 +5,31 @@
   background-color: #302e2e;
   padding: 50px;
   border-radius: 20px;
+  justify-content: space-around;
 }
 
 #skills a {
   text-decoration: none;
   color: white;
 }
-.container-subtitles{
-  color: white;
-}
 .primary{
   margin: 55px 50px;
   padding: 30px 50px 0;
   color: white;
-  font-size: 250%;
+  font-size: 280%;
+  font-family: 'Roboto slab';
+  font-weight: lighter;
 }
-
+.container-subtitle{
+  color: white;
+}
 .secondary{
   width: max-content;
-  margin: 50px 25px;
 }
+
 .container-skills{
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .card-container{
@@ -35,9 +37,8 @@
   text-align: center;
   padding: 20px 80px;
   border-radius: 10px;
-  margin: 0 20px;
-
-
+  margin: 10px 20px;
+  flex: 2 0 100px;
 }
 
 .card-container:hover{
@@ -48,12 +49,18 @@
 @media screen and (max-width: 768px) {
   #skills{
     display: block;
+    margin: 10px;
+    padding: 10px;
+  }
+  .primary{
+    margin: 20px;
+    padding: 10px;
   }
   .container-skills{
-    flex-wrap: wrap;
+    overflow-x: auto;
   }
   .card-container{
     margin: 20px;
-    width: 100px;
+    
   }
 }

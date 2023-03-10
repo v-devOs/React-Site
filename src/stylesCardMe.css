@@ -37,12 +37,16 @@ body{
 
 @media screen and (max-width: 768px) {
   .container-card{
-    margin: 80px;
+    /* margin: 80px; */
     padding: 30px;
   }
   .card-info{
     margin-top: 0;
     text-align: left;
+  }
+  .card-description{
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 

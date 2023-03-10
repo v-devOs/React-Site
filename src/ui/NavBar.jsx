@@ -17,7 +17,7 @@ export const NavBar = () => {
 
         <button 
           onClick={onClick}
-          className="nav-toggle"><i class={`${isActive ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}`}></i></button>
+          className="nav-toggle"><i className={`${isActive ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}`}></i></button>
 
         <ul className={`nav-menu ${ isActive ? 'nav-menu_visible' : ''}`}>
           {

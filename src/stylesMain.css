@@ -10,9 +10,7 @@ body{
 
 .container-main-title{
   position: relative;
-  width: max-content;
-  top: 20%;
-  left: 15%;
+  padding: 100px;
 }
 
 .main-title{
@@ -23,8 +21,17 @@ body{
 
 
 @media screen and (max-width: 768px) {
-  .main-title{
-    font-size: 350%;
+  .header{
+    height: 50vh;
   }
+  .main-title{
+    font-size: 250%;
+  }
+  .container-main-title{
+    top: 0;
+    left: 0;
+    padding: 50px;
+  }
+  
 }
 
