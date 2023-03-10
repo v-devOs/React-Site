@@ -1,4 +1,7 @@
+body{
 
+  background-color: #252525;
+}
 .header{
   background-image: url(/images/cool-background.png);
   color: white;

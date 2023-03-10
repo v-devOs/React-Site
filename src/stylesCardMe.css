@@ -1,34 +1,32 @@
 body{
-  background: #EEEEEE;
+  background: #18191a;
 }
 .container-card{
   align-items: center;
-  background-color: #212121;
+  background-color: #061d2a;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 55px 150px;
+  margin: 55px 50px;
   padding: 30px;
   color: white;
 }
 
 .subtitle{
   font-size: 200%;
-  margin: 20px;
+  margin: 10px;
 }
 
 .card-description{
   position: relative;
   display: flex;
-  text-align: justify;
-
 }
 
 .card-image{
   display: block;
   width: 200px;
-  margin: 10px 20px;
+  margin: 10px ;
   border-radius: 15px;
 }
 
