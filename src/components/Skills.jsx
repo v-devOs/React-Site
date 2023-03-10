@@ -5,11 +5,11 @@ import { SkillsInfo } from './componentsSkills/SkillsInfo'
 export const Skills = () => {
   return (
     <>
-      <div>
+      <div id='skills'>
         <h2 className="subtitle primary">Habilidades</h2>
       </div>
 
-      <div id="skills">
+      <div className="skills">
         
         {
           skills.map( ({area, skills}) => (

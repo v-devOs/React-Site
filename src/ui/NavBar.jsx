@@ -10,7 +10,7 @@ export const NavBar = () => {
   }
   return (
     
-    <div className="container-navbar">
+    <div className="container-navbar animate__animated animate__fadeInLeft">
 
       <nav className="navbar">
         <a href="" className="nav-logo nav-link">deVos</a>

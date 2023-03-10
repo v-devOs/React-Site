@@ -2,7 +2,7 @@ import '../stylesCardMe.css'
 export const CardMe = () => {
   return (
     <>
-      <div className="container-card" id='about-me'>
+      <div className="container-card animate__animated animate__fadeInUp" id='about-me'>
         <h3 className='subtitle item-title-active'>Sobre mi</h3>
 
           <div className="card">

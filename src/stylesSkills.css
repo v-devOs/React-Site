@@ -1,12 +1,12 @@
 
-#skills{
+.skills{
   margin: 55px 100px;
   background-color: #302e2e;
   padding: 50px;
   border-radius: 20px;
 }
 
-#skills a {
+.skills a {
   text-decoration: none;
   color: white;
 }

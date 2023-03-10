@@ -1,7 +1,7 @@
 
 export const Title = () => {
   return (
-    <div className="header">
+    <div className="header animate__animated animate__fadeInDown">
 
       <div className="container-main-title">
         <h1 className="main-title">Hola!, Soy Uriel Galindo</h1>
