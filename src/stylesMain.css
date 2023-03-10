@@ -6,6 +6,7 @@ body{
   background-image: url(/images/cool-background.png);
   color: white;
   height: 85vh;
+
 }
 
 .container-main-title{
@@ -22,10 +23,10 @@ body{
 
 @media screen and (max-width: 768px) {
   .header{
-    height: 70vh;
+    height: 50vh;
   }
   .main-title{
-    font-size: 250%;
+    font-size: 280%;
   }
   .container-main-title{
     top: 0;

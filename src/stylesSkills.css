@@ -11,7 +11,6 @@
   color: white;
 }
 .skills-info{
-  /* display: flex; */
   margin-bottom: 50px;
 }
 .primary{
@@ -42,11 +41,11 @@
   padding: 20px 80px;
   border-radius: 10px;
   margin: 10px 20px;
-  width: max-content;
+  width: 250px;
 }
 
 .card-container:hover{
-  box-shadow: rgba(214, 8, 8, 0.9) 0px 3px 8px;
+  box-shadow: rgba(7, 7, 175, 0.9) 0px 3px 8px;
   transition: 0.3s;
 }
 
@@ -65,12 +64,14 @@
     margin: 20px;
     padding: 10px;
   }
-  .container-skills{
-    overflow-x: auto;
-  }
+  
+  
   .card-container{
-    margin: 20px;
-    flex: 1 0 200px;
-    
+    margin: 10px 5px;
+    flex: auto;
+  }
+  .card-icon{
+    width: 50px;
+    height: 50px;
   }
 }
