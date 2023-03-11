@@ -12,8 +12,4 @@ export const headers = [
     info: 'Proyectos',
     pointer: 'projects'
   },
-  {
-    info: 'Contacto',
-    pointer: 'contac-me'
-  },
 ]
