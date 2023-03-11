@@ -19,7 +19,7 @@ export const Projects = () => {
                   <h2 className="project-name">{project.name}</h2>
                   <p className="tools-used">Herramientas: {project.tools}</p>
 
-                  <p>{project.description}</p>
+                  <p className="description-project">Descripcion: {project.description}</p>
                   
                 </div>
               </a>

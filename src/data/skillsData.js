@@ -27,6 +27,11 @@ export const skills = [
         name: 'REACT JS',
         link: 'https://lenguajehtml.com/html/'
       },
+      {
+        icon: '/icons/redux.svg',
+        name: 'REDUX',
+        link: 'https://lenguajehtml.com/html/'
+      },
     ]
   },
   {
