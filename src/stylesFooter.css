@@ -20,3 +20,9 @@
   margin: 20px;
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .container-image img{
+    width: 100px; 
+  }
+}
