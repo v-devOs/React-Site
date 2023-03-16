@@ -15,22 +15,22 @@ export const skills = [
       {
         icon: '/icons/css.svg',
         name: 'CSS 3',
-        link: 'https://lenguajehtml.com/html/'
+        link: 'https://desarrolloweb.com/home/css'
       },
       {
         icon: '/icons/javascript.svg',
         name: 'JAVASCRIPT',
-        link: 'https://lenguajehtml.com/html/'
+        link: 'https://developer.mozilla.org/es/docs/Web/JavaScript'
       },
       {
         icon: '/icons/reactjs.svg',
         name: 'REACT JS',
-        link: 'https://lenguajehtml.com/html/'
+        link: 'https://es.reactjs.org/'
       },
       {
         icon: '/icons/redux.svg',
         name: 'REDUX',
-        link: 'https://lenguajehtml.com/html/'
+        link: 'https://redux-toolkit.js.org/'
       },
     ]
   },
@@ -40,22 +40,22 @@ export const skills = [
       {
         icon: '/icons/nodejs.svg',
         name: 'NODE JS',
-        link: 'https://lenguajehtml.com/html/'
+        link: 'https://nodejs.org/es/'
       },
       {
         icon: '/icons/expressjs.svg',
         name: 'EXPRESS JS',
-        link: 'https://lenguajehtml.com/html/'
+        link: 'https://expressjs.com/en/starter/hello-world.html'
       },
       {
         icon: '/icons/mongodb.svg',
         name: 'MONGO DB',
-        link: 'https://lenguajehtml.com/html/'
+        link: 'https://www.mongodb.com/'
       },
       {
         icon: '/icons/firebase.svg',
         name: 'FIREBASE',
-        link: 'https://lenguajehtml.com/html/'
+        link: 'https://firebase.google.com/docs?hl=es-419'
       },
     ]
   },
@@ -65,12 +65,12 @@ export const skills = [
       {
         icon: '/icons/java.svg',
         name: 'JAVA',
-        link: 'https://lenguajehtml.com/html/'
+        link: 'https://www.java.com/es/'
       },
       {
         icon: '/icons/python.svg',
         name: 'PYTHON',
-        link: 'https://lenguajehtml.com/html/'
+        link: 'https://www.python.org/'
       },
     ]
   },

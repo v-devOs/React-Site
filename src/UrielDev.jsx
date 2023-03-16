@@ -5,6 +5,7 @@ import { CardMe } from "./components/CardMe"
 import { Skills } from "./components/Skills"
 import { Projects } from "./components/Projects"
 import { useEffect } from "react"
+import { useScroll } from "./hooks/useScroll"
 
 
 export const UrielDev = () => {

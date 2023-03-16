@@ -22,7 +22,10 @@ export const NavBar = () => {
         <ul className={`nav-menu ${ isActive ? 'nav-menu_visible' : ''}`}>
           {
             headers.map( header => (
-              <li key={header.pointer} className='nav-menu-item'><a href={`#${header.pointer}`} className="nav-menu-link nav-link" >{header.info}</a></li>
+              <li
+                onClick={onClick} 
+                key={header.pointer} 
+                className='nav-menu-item'><a href={`#${header.pointer}`} className="nav-menu-link nav-link" >{header.info}</a></li>
             ))
           }
         </ul>

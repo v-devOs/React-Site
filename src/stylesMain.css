@@ -26,7 +26,7 @@ a{
 
 @media screen and (max-width: 768px) {
   .header{
-    height: 50vh;
+    height: 60vh;
   }
   .main-title{
     font-size: 280%;
